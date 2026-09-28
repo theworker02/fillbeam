@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fillbeam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fill identifiers and beam tokens for idempotent workflows.",
+  "bin": {
+    "fillbeam": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fillbeam.git"
+  },
+  "homepage": "https://theworker02.github.io/fillbeam/",
+  "keywords": [
+    "fill",
+    "beam",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
